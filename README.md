@@ -1,6 +1,6 @@
 
 :: Task hosted on this link
-https://hackerbay-frontend.netlify.com/
+https://determined-albattani-5b9ed8.netlify.app
 
 :: Task conditions
 
