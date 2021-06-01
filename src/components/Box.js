@@ -8,8 +8,8 @@ const Box = (props) => {
         : 'square';
     return (
          props.value === 0 
-         ? <img className={cls}   onClick = {() => props.clickHandler()} alt='Player' style={{width:60}} src={Hero} />  /* For Hero's Boxes */
-         : <img className={cls}   onClick = {() => props.clickHandler()} style={{width:60}} alt={props.value} src={white} /> /* For white Boxes */
+         ? <img className={cls}   onClick = {() => props.clickHandler()} alt='Player' style={{width:60, height:60}} src={Hero} />  /* For Hero's Boxes */
+         : <img className={cls}   onClick = {() => props.clickHandler()} style={{width:60, height:60}} alt={props.value} src={white} /> /* For white Boxes */
     
     );
 };
